@@ -1,0 +1,9 @@
+{
+	"name": "ny-airbnb-pipeline",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f8645978-f883-4904-ac4e-5243b08de01b",
+		"tenantId": "462a9c9c-2da6-4bfb-b318-0f83043fe49b"
+	}
+}
