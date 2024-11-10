@@ -1,0 +1,23 @@
+{
+	"name": "ny_airbnb_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ny_airbnb_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "raw-data",
+				"fileSystem": "nyairbnb-container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
