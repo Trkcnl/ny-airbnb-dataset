@@ -1,0 +1,12 @@
+{
+	"name": "ReviewsHTTP",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/Trkcnl/ny-airbnb-dataset/refs/heads/main/data/reviews.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
